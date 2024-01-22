@@ -1,6 +1,6 @@
 //assignment operator
 var a=10
-console.log("Assignment operator output:",a)
+//console.log("Assignment operator output:",a)
 //arithmetic operator
 var aA=10
 var bA=30
@@ -28,4 +28,15 @@ var b1=20
  console.log(100||20&&0)
  console.log((100||20)&&0)
  console.log(0&&(100||20))
+
+ //Relational operator -> <,>,<=,>=,==,!== | output =>True or False
+ aR=10
+ bR=30
+ console.log("relational operator > is: ",aR>bR)
+ console.log("Relational operator  >= is",aR>=bR)
+ console.log("Relational operator  <= is",aR<=bR)
+ console.log("Relational operator  < is",aR<bR)
+ console.log("Relational operator  === is",aR===bR)
+ console.log("Relational operator  !== is",aR!==bR)
+
  
