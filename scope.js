@@ -1,5 +1,5 @@
 //global scope
-/*sum=0
+sum=0
 for(var i=0;i<10;i++){
     sum+=i
 }
@@ -27,7 +27,7 @@ for(var i=0;i<1;i++){
     //i can be accessed outside as well
 }
 console.log(i+1)
-*/
+
 //BLOCK SCOPE
 var a=10
 console.log(a)
