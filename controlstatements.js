@@ -59,4 +59,6 @@ for (key in customerDetails){
     console.log(key,customerDetails[key])
 }
 //for each eg
-//customerDetails.forEach((key,element)=>)
+customerDetails.forEach(([key,element])=>{
+    console.log(key,":",element)
+});
