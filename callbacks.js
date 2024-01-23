@@ -1,5 +1,5 @@
 //call back
-function ramuSomu(welcomeMessage,callback){
+/*function ramuSomu(welcomeMessage,callback){
 setTimeout(function(){
     console.log(welcomeMessage)
     callback()
@@ -10,3 +10,17 @@ function MiniAni(){
 }
 
 ramuSomu("Hello RAmu and Somu\nWelcome to KEC",MiniAni)
+*/
+//form submission f=example
+function submitform(buttonClick,db){
+    setTimeout(function(){
+console.log(buttonClick)
+db();
+    },2000
+)}
+
+
+function database(){
+console.log("Form submitted Successful")
+}
+submitform("Form submit button clicked",database)
