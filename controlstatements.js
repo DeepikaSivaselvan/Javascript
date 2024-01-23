@@ -1,5 +1,5 @@
 //for loop
-/*sum=0
+sum=0
 for(var i=0;i<10;i++){
     sum+=i
 }
@@ -49,7 +49,7 @@ b.forEach(value=>{
     console.log(value)
     
 });
-*/
+
 var customerDetails={}
 customerDetails["id"]="21ECR000"
 customerDetails["name"]="samantha"

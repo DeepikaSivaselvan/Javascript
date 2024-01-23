@@ -1,5 +1,5 @@
 //SET
-/*set=new Set("apple","banana")
+set=new Set("apple","banana")
 console.log(set)
 a=new Set(["apple","banana"])
 console.log(a)
@@ -13,7 +13,7 @@ for (value of a) {
 //for in
 for (key in a){
     console.log(key)
-}*/
+}
 //MAP
 mapEg=new Map([
     ["id","21ECR045"],["name","deepika"],
